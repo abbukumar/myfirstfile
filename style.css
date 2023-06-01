@@ -1,0 +1,1438 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.ram {
+    position: relative;
+    border: 1px solid #d8d4d4;
+    height: 80px;
+    background-color: bisque;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.wha li {
+    display: inline-block;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+#pk {
+    position: relative;
+    left: 100px;
+    font-size: 20px;
+}
+
+#pki {
+    position: relative;
+    left: 250px;
+    font-size: 20px;
+}
+
+.pkki {
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(19, 170, 19);
+    padding: 13px 18px;
+    outline: none;
+    left: 170px;
+    font-size: 20px;
+}
+
+.pkki:hover {
+    background-color: aqua;
+}
+
+.aa {
+    position: relative;
+    height: 600px;
+    width: 1500px;
+    left: 200px;
+    bottom: -20px;
+}
+
+/**next div**/
+.abb {
+    position: relative;
+    width: 90%;
+    border-radius: 30px;
+    left: 50px;
+    top: 80px;
+}
+
+@media(max-width:500px) {
+    .abb {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+h1 {
+    position: absolute;
+    font-size: 100px;
+    left: 180px;
+    bottom: 220px;
+    color: white;
+}
+
+@media(max-width:500px) {
+    h1 {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+h3 {
+    position: absolute;
+    left: 181px;
+    bottom: 80px;
+    color: white;
+    font-size: 28px;
+}
+
+@media(max-width:500px) {
+    h3 {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.qq {
+    position: absolute;
+    padding: 18px 35px;
+    border-radius: 50px;
+    right: 1320px;
+    bottom: 1px;
+    background-color: rgb(5, 155, 38);
+    font-size: 25px;
+}
+
+@media(max-width:500px) {
+    .qq {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.qq:hover {
+    background-color: white;
+}
+
+.abbc {
+    position: absolute;
+    width: 600px;
+    right: 160px;
+    bottom: 600px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width:500px) {
+    .abbc {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.bbc {
+    position: absolute;
+    right: 220px;
+    bottom: 450px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    width: 600px;
+}
+
+@media(max-width:500px) {
+    .bbc {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.ss {
+    position: absolute;
+    right: 140px;
+    width: 600px;
+    bottom: 350px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+
+}
+
+@media(max-width:500px) {
+    .ss {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.tt {
+    position: absolute;
+    width: 500px;
+    top: 450px;
+    right: 220px;
+    height: 300px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width:500px) {
+    .tt {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.uu {
+    position: absolute;
+    width: 500px;
+    top: 750px;
+    right: 160px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width:500px) {
+    .uu {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.vv {
+    position: relative;
+    width: 1550px;
+    top: 100px;
+    left: 10px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width:500px) {
+    .vv {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h2 {
+    margin-left: 400px;
+    font-size: 40px;
+    margin-top: 150px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width:500px) {
+    h2 {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.WW {
+    position: relative;
+    width: 1550px;
+    left: 10px;
+    top: 80px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width:500px) {
+    .WW {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.yy {
+    position: relative;
+    left: 1000px;
+    top: 130px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width:500px) {
+    .yy {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: bisque
+}
+
+.zz {
+    position: relative;
+    bottom: 400px;
+    font-size: 60px;
+    margin-left: 80px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width:500px) {
+    .zz {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#aa {
+    position: relative;
+    font-size: 30px;
+    bottom: 420px;
+    margin-left: 80px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width:500px) {
+    .aa {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#bb {
+    position: relative;
+    font-size: 30px;
+    margin-left: 80px;
+    bottom: 400px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width:500px) {
+    #bb {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#bb:hover {
+    color: rgb(138, 175, 121);
+}
+
+/**3 div**/
+#to {
+    position: relative;
+    border: 2px solid rgba(208, 221, 221, 0.637);
+    height: 900px;
+    bottom: 300px;
+    width: 99%;
+    background-color: rgb(51, 37, 37);
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.me {
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    left: 150px;
+    top: 90px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#rlm {
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    left: 1050px;
+    top: 250px;
+    list-style: none;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#ro {
+    position: absolute;
+    font-size: 80px;
+    color: chartreuse;
+    list-style: none;
+    left: 1050px;
+    top: 340px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#mo {
+    position: absolute;
+    font-size: 20px;
+    left: 1050px;
+    top: 450px;
+    color: white;
+    list-style: none;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#op {
+    position: absolute;
+    font-size: 25px;
+    left: 1050px;
+    top: 550px;
+    list-style: none;
+    color: white;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/**khatm div**/
+.div2 {
+    position: relative;
+    border: 1px solid white;
+    height: 600px;
+    width: 99%;
+    bottom: 200px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.mmm {
+    position: absolute;
+    height: 650px;
+    width: 300px;
+    left: 900px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.nnn {
+    position: absolute;
+    height: 420px;
+    width: 400px;
+    left: 890px;
+    bottom: 90px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.ooo {
+    position: absolute;
+    font-size: 80px;
+    left: 50px;
+    color: rgb(31, 17, 17);
+    list-style: none;
+    top: 100px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.ppp {
+    position: absolute;
+    font-size: 30px;
+    left: 50px;
+    color: rgb(31, 17, 17);
+    list-style: none;
+    top: 300px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.qqq {
+    position: absolute;
+    font-size: 30px;
+    list-style: none;
+    top: 500px;
+    left: 50px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/**open**/
+.open {
+    position: relative;
+    border: 1px solid rgb(230, 224, 224);
+    height: 800px;
+    width: 99%;
+    top: 10px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.rrr {
+    position: absolute;
+    height: 700px;
+    width: 320px;
+    left: 200px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.sss {
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    left: 210px;
+    top: 200px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.ttt {
+    position: absolute;
+    font-size: 60px;
+    left: 800px;
+    color: rgb(31, 17, 17);
+    list-style: none;
+    top: 150px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.www {
+    position: absolute;
+    font-size: 30px;
+    left: 800px;
+    color: rgb(109, 92, 92);
+    list-style: none;
+    top: 300px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.yyy {
+    position: absolute;
+    font-size: 30px;
+    list-style: none;
+    top: 500px;
+    left: 800px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/**5div**/
+.aaaa {
+    position: relative;
+    border: 1px solid rgb(212, 200, 200);
+    height: 800px;
+    width: 99%;
+    top: 10px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.bbbb {
+    position: absolute;
+    height: 800px;
+    width: 400px;
+    left: 1000px;
+    top: 60px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.cccc {
+    position: absolute;
+    font-size: 60px;
+    left: 150px;
+    color: rgb(26, 18, 18);
+    list-style: none;
+    top: 250px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.dddd {
+    position: absolute;
+    font-size: 30px;
+    left: 150px;
+    color: rgb(109, 92, 92);
+    list-style: none;
+    top: 400px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.eeee {
+    position: absolute;
+    font-size: 30px;
+    list-style: none;
+    top: 550px;
+    left: 150px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/**6 div**/
+.ffff {
+    position: relative;
+    border: 1px solid rgb(212, 200, 200);
+    height: 600px;
+    width: 99%;
+    top: 80px;
+    background-color: rgb(144, 224, 198);
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    border-radius: 20px;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.gggg {
+    position: absolute;
+    font-size: 60px;
+    left: 150px;
+    color: rgb(26, 18, 18);
+    list-style: none;
+    top: 50px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.hhhh {
+    position: absolute;
+    top: 450px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    left: 150px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.iiii {
+    position: absolute;
+    top: 450px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    left: 230px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abbu {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.iiii:hover {
+    background-color: black;
+}
+
+.jjjj {
+    position: absolute;
+    border: 1px solid rgb(223, 213, 213);
+    height: 450px;
+    width: 520px;
+    top: 80px;
+    left: 700px;
+    border-radius: 30px;
+    background-color: white;
+
+}
+
+i {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+
+}
+
+.kkkk {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    list-style: none;
+    font-size: 40px;
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+}
+
+.llll {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    list-style: none;
+    font-size: 20px;
+    color: rgb(94, 91, 91);
+    animation-name: abbu;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+}
+
+
+.mmmm {
+    position: absolute;
+    height: 60px;
+    width: 130px;
+    border-radius: 20px;
+    left: 80px;
+    font-size: 20px;
+    top: 300px;
+    color: white;
+    background-color: aquamarine;
+
+}
+
+.mmmm:hover {
+    background-color: black;
+}
+
+.part13 {
+    position: relative;
+    border: 1px solid rgb(49, 43, 43);
+    height: 450px;
+    width: 99%;
+    background-color:black;
+    top: 80px;
+}
+.img18{
+    position: absolute;
+  top: 70px;
+  left: 190px;
+}
+.cnt15{
+    position: absolute;
+    left: 190px;
+    top: 230px;
+    font-size: 25px;
+    border: 1px solid rgb(65, 58, 58);
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color:rgb(22, 160, 22);
+}
+.cnt15:hover{
+    background-color: white;
+}
+.cnt16{
+    position: absolute;
+   
+}
+.unod2{
+    position: absolute;
+    left: 450px;
+    list-style: none;
+color: white;
+top: 70px;
+font-size: 25px;
+}
+.wwd{margin-top: 5px;
+    font-size: 15px; 
+ 
+}
+.feat{
+    margin-top: 20px;
+}
+
+.feat:hover {text-decoration:underline; }
+.unod3{
+    position: absolute;
+    left: 680px;
+    list-style: none;
+color: white;
+top: 70px;
+font-size: 25px;
+border: 1px solid black;
+height: 190px;
+width: 150px;
+}
+.wwa{
+    margin-top: 0px;
+    font-size: 15px; 
+}
+.unod4{
+    position: absolute;
+    left: 900px;
+    list-style: none;
+color: white;
+top: 70px;
+font-size: 25px;
+border: 1px solid black;
+height: 190px;
+width: 100px;
+}
+.uwa{
+    margin-top: 0px;
+    font-size: 15px; 
+}
+.unod5{
+    position: absolute;
+    left: 1200px;
+    list-style: none;
+color: white;
+top: 70px;
+font-size: 25px;
+border: 1px solid black;
+height: 190px;
+width: 170px;
+}
+.nh{
+    margin-top: 0px;
+    font-size: 15px; 
+}
+.bdrline{
+   position: absolute;
+    width: 70%;
+border: 1px solid rgb(240, 230, 230);
+top: 320px;
+left: 120px;
+}
+.whts{
+    position:absolute;
+left: 120px;
+color: white;
+top: 360px;
+font-size: 20px;
+}
+.tos{
+    position:absolute;
+    left: 360px;
+    color: white;
+    top: 360px;
+    font-size: 20px;
+    }
+    .twit{
+        position:relative;
+       left: 590px;
+       top: 360px; 
+     color: white;
+  font-size: 25px;
+   
+    }
+.twit i{position: absolute;
+    left: 9px;
+    top: 11px;
+}
+.twit:hover{ background-color: aquamarine;}
+.yt{
+    position:relative;
+    left: 680px;
+    top: 360px; 
+   
+    font-size: 25px;
+}
+.yt i{position: absolute;
+    left: 9px;
+    top: 11px;}
+    .yt:hover{ background-color: aquamarine;}
+    .inst{
+        position:relative;
+        left: 750px;
+        top: 360px; 
+       font-size: 25px;
+       color: white;
+    }
+    .inst i{position: absolute;
+        left: 9px;
+        top: 11px;} 
+        .inst:hover{ background-color: aquamarine;}
+        .fb1{
+            position:relative;
+            left: 820px;
+            top: 360px; 
+           font-size: 25px;
+           color: white;
+        }
+        .fb1 i{position: absolute;
+            left: 9px;
+            top: 11px;}
+            .fb1:hover{ background-color: aquamarine;}  
+            .ght{
+                position: relative;
+                left: 480px;
+            } 
+          #cars{
+            position: relative;
+            left: 980px;
+            top: 360px;
+            padding: 20px 70px;
+            border-radius: 60PX;
+            color: rgb(228, 222, 222);
+            font-size: 20px;
+            background-color:black;
+          }
